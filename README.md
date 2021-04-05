@@ -38,13 +38,13 @@ This is the main website for Flying Club, a general aviation flying club that or
 ### Wireframes
 Below are the wireframes that I created using [Balsamiq](https://balsamiq.com/)
 #### Index
-![wireframe for index.html](../assets/wireframes/index.png)
+![wireframe for index.html](assets/wireframes/index.png)
 #### About
-![wireframe for about.html](../assets/wireframes/about.png)
+![wireframe for about.html](assets/wireframes/about.png)
 #### The Fleet
-![wireframe for fleet.html](../assets/wireframes/fleet.png)
+![wireframe for fleet.html](assets/wireframes/fleet.png)
 #### Events
-![wireframe for events.html](../assets/wireframes/events.png)
+![wireframe for events.html](assets/wireframes/events.png)
 
 ## Features
 - The site is fully responsive by using the [Bootstrap](https://getbootstrap.com/) grid system.
