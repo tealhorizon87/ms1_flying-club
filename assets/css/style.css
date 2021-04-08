@@ -1,0 +1,43 @@
+/* -----------------------------------------Colours */
+
+header {
+  background: #85d6ff;
+}
+
+header a {
+  color: #003554;
+}
+
+footer {
+  background: #003554;
+  color: #fafafa;
+}
+
+/* -----------------------------------------Header */
+/* -----------------------------------------Hero */
+
+#hero-image {
+  position: relative;
+  background: #85D6FF url("../img/hero-image.jpg") no-repeat center center;
+  background-size: cover;
+  height: 100vh;
+}
+
+.jumbotron {
+  position: absolute;
+  background-color: transparent;
+  padding: 0;
+  color: #003554;
+  font-weight: 500;
+  font-size: 150%;
+  width: 35%;
+  text-align: center;
+  bottom: 30%;
+  right: 5vw;
+}
+
+button {
+  color: #fafafa;
+  background: #dd2cb1;
+}
+/* -----------------------------------------Footer */
