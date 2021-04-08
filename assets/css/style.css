@@ -1,7 +1,19 @@
+/* -----------------------------------------Fonts */
+body {
+  font-family: "Lato", sans-serif;
+  color: #003554;
+}
+
+h1, h2 {
+  font-family: "Oswald", sans-serif;
+  color: #003554;
+  font-weight: bold;
+}
+
 /* -----------------------------------------Colours */
 
 header {
-  background: #85d6ff;
+  background: #c2eaff;
 }
 
 header a {
@@ -13,31 +25,110 @@ footer {
   color: #fafafa;
 }
 
+.catch-all-content {
+  background-color: #fafafa4d;
+  border-radius: 50px;
+}
+
+.about-body {
+  background-color: #c2eaff4d;
+}
+
 /* -----------------------------------------Header */
+.navbar {
+  padding: 0.5rem;
+}
+
+.active {
+  border-bottom: 1px solid #003554;
+}
+
+.nav-link, .navbar-brand {
+  padding: 0;
+}
+
+header a:hover {
+  color: #dd2cb1;
+}
+
+.navbar-brand {
+  font-family: "Oswald", sans-serif;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+
 /* -----------------------------------------Hero */
 
 #hero-image {
-  position: relative;
   background: #85D6FF url("../img/hero-image.jpg") no-repeat center center;
   background-size: cover;
-  height: 100vh;
+  height: 85vh;
 }
 
-.jumbotron {
-  position: absolute;
-  background-color: transparent;
-  padding: 0;
-  color: #003554;
-  font-weight: 500;
-  font-size: 150%;
-  width: 35%;
+.catch-all {
   text-align: center;
-  bottom: 30%;
-  right: 5vw;
+  height: 85vh;
+  padding-top: 2rem;
+
+}
+
+.catch-all h1, p {
+  padding: 1rem;
+  font-weight: bold;
+}
+
+.catch-all h1 {
+  font-size: 60px;
 }
 
 button {
   color: #fafafa;
   background: #dd2cb1;
+
 }
 /* -----------------------------------------Footer */
+footer {
+  text-align: center;
+}
+
+footer a {
+  color: #fafafa;
+}
+
+footer p {
+  padding:0;
+}
+
+footer a:hover {
+    color: #dd2cb1;
+}
+
+.socials {
+  padding-bottom: 1rem;
+  font-size: 2rem;
+}
+
+.contacts {
+  padding-top: 1rem;
+}
+
+/* -----------------------------------------About */
+
+article {
+  text-align: center;
+}
+
+.image-box img {
+  height: auto;
+  width: 100%;
+  overflow: hidden;
+}
+
+.services {
+  padding-top: 10vh;
+}
+
+.image-box {
+  height: 50vh;
+}
