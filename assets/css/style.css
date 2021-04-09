@@ -34,6 +34,11 @@ footer {
   background-color: #c2eaff4d;
 }
 
+a:hover {
+  text-decoration: none;
+  color:  #dd2cb1;
+}
+
 /* -----------------------------------------Header */
 .navbar {
   padding: 0.5rem;
@@ -47,16 +52,16 @@ footer {
   padding: 0;
 }
 
-header a:hover {
-  color: #dd2cb1;
-}
-
 .navbar-brand {
   font-family: "Oswald", sans-serif;
   font-weight: bold;
   font-size: 2rem;
 }
 
+.navbar-collapse {
+  display: flex;
+  justify-content:flex-end;
+}
 
 /* -----------------------------------------Hero */
 
@@ -100,10 +105,6 @@ footer p {
   padding:0;
 }
 
-footer a:hover {
-    color: #dd2cb1;
-}
-
 .socials {
   padding-bottom: 1rem;
   font-size: 2rem;
@@ -119,16 +120,32 @@ article {
   text-align: center;
 }
 
-.image-box img {
-  height: auto;
-  width: 100%;
-  overflow: hidden;
-}
-
 .services {
-  padding-top: 10vh;
+  display: flex;
+  justify-content: center;
+  padding-top: 15vh;
+  margin-bottom: 2rem;
 }
 
 .image-box {
-  height: 50vh;
+  margin-top: 2rem;
+  height: 40vh;
+  width: auto;
+}
+
+.location {
+  margin-top: 15vh;
+}
+
+iframe {
+  border: none;
+}
+
+article a h2:hover {
+  text-decoration: none;
+  color: #dd2cb1;
+}
+
+.fa-globe {
+  color: #dd2cb1;
 }
