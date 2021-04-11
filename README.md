@@ -10,6 +10,8 @@ Flying club is a PPL (Private Pilot's Licence) flying club, with a selection of 
 2. [Features](#features)
 3. [Technologies Used](#technologies-used)
 4. [Testing](#testing)
+5. [Deployment](#deployment)
+6. [Acknowledgments](#acknowledgements)
 
 ## UX
 This is the main website for Flying Club, a general aviation flying club that organises air-shows and 'fly-in' events, allows pilots to rent aircraft, and offers experience flights to new users.
@@ -88,3 +90,24 @@ Below are the wireframes that I created using [Balsamiq](https://balsamiq.com/)
       - A wireframe program used to create the mock-ups.
 
 ## Testing
+
+##Deployment
+
+## Credits
+### Content
+  - The navbar was taken from [Bootstrap](https://getbootstrap.com/docs/4.6/getting-started/introduction/) and then personally styled
+  - [Bootstrap](https://getbootstrap.com/docs/4.6/getting-started/introduction/) grid system was used to make the site responsive, and various pre-coded style classes were used for layout purposes.
+
+### Media
+  - The hero image on the home page was taken from [picjumbo](https://picjumbo.com/)
+  - Images from the about page came from (left to right)
+      - [pixabay](Image by <a href="https://pixabay.com/users/valentinhintikka-10607927/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=5403046">valentin hintikka</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=5403046">Pixabay</a>)
+      - [Wikipedia](https://en.wikipedia.org/wiki/File:Piper_warrior.jpg)
+      - [pxhere](https://en.wikipedia.org/wiki/File:Piper_warrior.jpg)
+
+### Acknowledgements
+As this is my first attempt at building a webpage from scratch, special thanks go to so many for the help and advice needed to complete this project. They include, but are not limited to:
+    - [w3schools](https://www.w3schools.com/default.asp) - an essential source of support for the novice coder.
+    - [Stack Overflow](https://stackoverflow.com/) - much like w3schools, an essential source of guidance...there is always someone who has had the same problem, and the answer is likely here.
+    - [Code Institute](https://codeinstitute.net/) - from inspiration through all the walkthrough projects to the tools needed to complete.
+    - My mentor for providing help, support and feedback.
