@@ -1,6 +1,6 @@
 # Flying Club
 
-Flying club is a PPL (Private Pilot's Licence) flying club, with a selection of aircraft to rent and a full calendar of events.
+Flying club is a PPL (Private Pilot's Licence) flying club, with a selection of aircraft to rent and a full calendar of events. A link to the active page is [here](https://tealhorizon87.github.io/ms1_flying-club/).
 
 ## Table of Contents
 1. [UX](#ux)
