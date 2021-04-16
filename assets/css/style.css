@@ -13,21 +13,16 @@ h1, h2 {
 /* -----------------------------------------Colours */
 
 header {
-  background: #c2eaff;
+  background-color: #c2eaff;
 }
 
-header a {
+a {
   color: #003554;
 }
 
 footer {
-  background: #003554;
+  background-color: #003554;
   color: #fafafa;
-}
-
-.catch-all-content {
-  background-color: #fafafa4d;
-  border-radius: 50px;
 }
 
 .about-body {
@@ -36,6 +31,11 @@ footer {
 
 a:hover {
   text-decoration: none;
+  color: #003554;
+}
+
+header a:hover,
+footer a:hover {
   color:  #dd2cb1;
 }
 
@@ -63,35 +63,10 @@ a:hover {
   justify-content:flex-end;
 }
 
-/* -----------------------------------------Hero */
-
-#hero-image {
-  background: #85D6FF url("../img/hero-image.jpg") no-repeat center center;
-  background-size: cover;
-  height: 85vh;
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 0.5%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e")
 }
 
-.catch-all {
-  text-align: center;
-  height: 85vh;
-  padding-top: 2rem;
-
-}
-
-.catch-all h1, p {
-  padding: 1rem;
-  font-weight: bold;
-}
-
-.catch-all h1 {
-  font-size: 60px;
-}
-
-button {
-  color: #fafafa;
-  background: #dd2cb1;
-
-}
 /* -----------------------------------------Footer */
 footer {
   text-align: center;
@@ -112,6 +87,46 @@ footer p {
 
 .contacts {
   padding-top: 1rem;
+}
+
+/* -----------------------------------------Hero */
+
+.hero-image {
+  background-color: #85D6FF;
+  background-image: url("../img/hero-image.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 85vh;
+}
+
+.my-jumbotron {
+  text-align: center;
+  height: 85vh;
+  margin: 0;
+}
+
+.my-jumbotron-content {
+  background-color: #fafafa4d;
+  border-radius: 50px;
+  padding: 1rem;
+}
+
+.my-jumbotron h1, p {
+  padding: 1rem;
+  font-weight: bold;
+}
+
+.my-jumbotron h1 {
+  font-size: 60px;
+}
+
+.takeoff-button {
+  color: #fafafa;
+  background-color: #dd2cb1;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 15px;
 }
 
 /* -----------------------------------------About */
