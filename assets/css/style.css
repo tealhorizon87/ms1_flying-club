@@ -112,7 +112,8 @@ footer p {
   padding: 1rem;
 }
 
-.my-jumbotron h1, p {
+.my-jumbotron h1,
+.my-jumbotron p {
   padding: 1rem;
   font-weight: bold;
 }
@@ -143,9 +144,19 @@ article {
 }
 
 .image-box {
+  position: relative;
   margin-top: 2rem;
   height: 40vh;
   width: auto;
+  overflow: hidden;
+}
+
+.image-box img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
 }
 
 .location {
