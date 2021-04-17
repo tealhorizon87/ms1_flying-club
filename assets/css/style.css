@@ -4,10 +4,11 @@ body {
   color: #003554;
 }
 
-h1, h2 {
+h1, h2, h3 {
   font-family: "Oswald", sans-serif;
   color: #003554;
   font-weight: bold;
+  text-align: center;
 }
 
 /* -----------------------------------------Colours */
@@ -25,7 +26,7 @@ footer {
   color: #fafafa;
 }
 
-.about-body {
+.body-background {
   background-color: #c2eaff4d;
 }
 
@@ -37,6 +38,16 @@ a:hover {
 header a:hover,
 footer a:hover {
   color:  #dd2cb1;
+}
+
+/* -----------------------------------------Special Paddings */
+
+.services,
+.aircraft {
+  display: flex;
+  justify-content: center;
+  padding-top: 15vh;
+  margin-bottom: 2rem;
 }
 
 /* -----------------------------------------Header */
@@ -136,13 +147,6 @@ article {
   text-align: center;
 }
 
-.services {
-  display: flex;
-  justify-content: center;
-  padding-top: 15vh;
-  margin-bottom: 2rem;
-}
-
 .image-box {
   position: relative;
   margin-top: 2rem;
@@ -174,4 +178,22 @@ article a h2:hover {
 
 .fa-globe {
   color: #dd2cb1;
+}
+
+/* -----------------------------------------Fleet */
+
+.aircraft h2,
+.experience h2,
+.form-container h2 {
+  font-size: 3rem;
+}
+
+.fleet-heading,
+.xp-heading {
+  margin-bottom: 10vh;
+}
+
+.form-container {
+  display: flex;
+  justify-content: center;
 }
