@@ -96,18 +96,28 @@ Below are the wireframes that I created using [Balsamiq](https://balsamiq.com/)
 ## Testing
 
 ##Deployment
+Deployment for this project is via GitHub Pages.
+- From the repository home page, select the 'settings' tab
+- Scroll down the menu on the left and select 'pages'
+- ![pages screenshot](assets\img\pages-screenshot.png)
+From the dropdown menu under 'source', select the branch that you wish to publish (usually master or main)
+- ![pages screenshot](assets\img\pages-screenshot2.png)
+Make sure that the root folder is selected and click save
 
 ## Credits
 ### Content
-  - The navbar was taken from [Bootstrap](https://getbootstrap.com/docs/4.6/getting-started/introduction/) and then personally styled
   - [Bootstrap](https://getbootstrap.com/docs/4.6/getting-started/introduction/) grid system was used to make the site responsive, and various pre-coded style classes were used for layout purposes.
+  - The navbar was taken from [Bootstrap](https://getbootstrap.com/docs/4.6/getting-started/introduction/) and then personally styled.
+  - The image carousel was also copied from [Bootstrap](https://getbootstrap.com/docs/4.6/getting-started/introduction/) documentation.
 
 ### Media
   - The hero image on the home page was taken from [picjumbo](https://picjumbo.com/)
   - Images from the about page came from (left to right)
       - [pixabay](https://pixabay.com/photos/aircraft-a-small-plane-piper-arrow-5403046/)
-      - [Wikipedia](https://en.wikipedia.org/wiki/File:Piper_warrior.jpg)
+      - [Wikipedia](https://en.wikipedia.org/wiki/Diamond_DA40_Diamond_Star#/media/File:DiamondDA40StarC-GSPBinstrumentpanel.jpg)
       - [pxhere](https://en.wikipedia.org/wiki/File:Piper_warrior.jpg)
+  - Images from the fleet page all came from [Wikipedia](https://en.wikipedia.org)
+  - Images and videos used for the events carousel were taken from [pixabay](https://pixabay.com)
 
 ### Acknowledgements
 As this is my first attempt at building a webpage from scratch, special thanks go to so many for the help and advice needed to complete this project. They include, but are not limited to:
