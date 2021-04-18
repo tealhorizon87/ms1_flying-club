@@ -203,6 +203,14 @@ article a h2:hover {
   margin-bottom: var(--sub-spacer);
 }
 
+.contact-details a {
+  color: var(--dark-blue);
+}
+
+.contact-details a:hover {
+  color: var(--magenta);
+}
+
 /* -----------------------------------------Fleet */
 
 .aircraft {
@@ -245,6 +253,8 @@ article a h2:hover {
 .form-container {
   margin-top: var(--mini-spacer);
   padding: var(--sub-spacer) 0;
+  display: flex;
+  justify-content: center;
 }
 
 .contact-form input {
@@ -256,7 +266,54 @@ select,
 textarea {
   width: 100%;
   padding: 0.5rem;
-  margin: var(--mini-spacer);
+  margin: var(--mini-spacer) 0;
   border: 1px solid var(--dark-blue);
   border-radius: 10px;
+}
+
+/* -----------------------------------------Events */
+
+.events {
+  display: flex;
+  justify-content: center;
+  padding-top: var(--main-spacer);
+  text-align: center;
+}
+
+/* -----------------------------------------Events table */
+
+.events-table {
+  display: flex;
+  justify-content: center;
+}
+
+table {
+  text-align: center;
+}
+
+th {
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.5rem;
+  border-bottom: 2px solid #003554;
+}
+
+tr {
+  border-bottom: 1px solid #0035544d;
+
+}
+
+td {
+  padding: 0 var(--sub-spacer);
+}
+
+/* -----------------------------------------Events gallery */
+
+.events-gallery {
+  display: flex;
+  justify-content: center;
+  padding: var(--main-spacer) 0;
+}
+
+.events-heading {
+  margin: var(--sub-spacer) 0;
 }
