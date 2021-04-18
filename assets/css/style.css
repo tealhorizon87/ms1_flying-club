@@ -1,29 +1,9 @@
-/* -----------------------------------------Fonts */
-body {
-  font-family: "Lato", sans-serif;
-  color: #003554;
-}
-
-h1, h2, h3 {
-  font-family: "Oswald", sans-serif;
-  color: #003554;
-  font-weight: bold;
-  text-align: center;
-}
-
 /* -----------------------------------------Colours */
 
-header {
-  background-color: #c2eaff;
-}
-
-a {
-  color: #003554;
-}
-
-footer {
-  background-color: #003554;
-  color: #fafafa;
+:root {
+  --light-blue: #c2eaff;
+  --dark-blue: #003554;
+  --magenta: #dd2cb1;
 }
 
 .body-background {
@@ -32,25 +12,45 @@ footer {
 
 a:hover {
   text-decoration: none;
-  color: #003554;
+  color: var(--dark-blue);
 }
 
 header a:hover,
 footer a:hover {
-  color:  #dd2cb1;
+  color:  var(--magenta);
+}
+
+/* -----------------------------------------Fonts */
+body {
+  font-family: "Lato", sans-serif;
+  color: var(--dark-blue);
+}
+
+h1, h2, h3, h4 {
+  font-family: "Oswald", sans-serif;
+  color: var(--dark-blue);
+  font-weight: bold;
+  text-align: center;
 }
 
 /* -----------------------------------------Special Paddings */
 
-.services,
-.aircraft {
-  display: flex;
-  justify-content: center;
-  padding-top: 15vh;
-  margin-bottom: 2rem;
+:root {
+  --main-spacer: 4rem;
+  --sub-spacer: 2rem;
+  --mini-spacer: 1rem;
 }
 
 /* -----------------------------------------Header */
+
+header {
+  background-color: var(--light-blue);
+}
+
+header a {
+  color: var(--dark-blue);
+}
+
 .navbar {
   padding: 0.5rem;
 }
@@ -59,7 +59,8 @@ footer a:hover {
   border-bottom: 1px solid #003554;
 }
 
-.nav-link, .navbar-brand {
+.nav-link,
+.navbar-brand {
   padding: 0;
 }
 
@@ -79,8 +80,11 @@ footer a:hover {
 }
 
 /* -----------------------------------------Footer */
+
 footer {
   text-align: center;
+  background-color: var(--dark-blue);
+  color: #fafafa;
 }
 
 footer a {
@@ -92,18 +96,18 @@ footer p {
 }
 
 .socials {
-  padding-bottom: 1rem;
+  padding-bottom: var(--mini-spacer);
   font-size: 2rem;
 }
 
 .contacts {
-  padding-top: 1rem;
+  padding-top: var(--mini-spacer);
 }
 
 /* -----------------------------------------Hero */
 
 .hero-image {
-  background-color: #85D6FF;
+  background-color: var(--light-blue);
   background-image: url("../img/hero-image.jpg");
   background-position: center;
   background-repeat: no-repeat;
@@ -120,12 +124,12 @@ footer p {
 .my-jumbotron-content {
   background-color: #fafafa4d;
   border-radius: 50px;
-  padding: 1rem;
+  padding: var(--mini-spacer);
 }
 
 .my-jumbotron h1,
 .my-jumbotron p {
-  padding: 1rem;
+  padding: var(--mini-spacer);
   font-weight: bold;
 }
 
@@ -135,22 +139,27 @@ footer p {
 
 .takeoff-button {
   color: #fafafa;
-  background-color: #dd2cb1;
+  background-color: var(--magenta);
   border: none;
   padding: 0.5rem 1rem;
   border-radius: 15px;
 }
 
-/* -----------------------------------------About */
-
-article {
-  text-align: center;
+.my-jumbotron-content button a {
+  color: #fafafa;
 }
+
+.my-jumbotron-content button a:hover,
+.takeoff-button:hover {
+  color: var(--dark-blue);
+}
+
+/* -----------------------------------------Image boxes */
 
 .image-box {
   position: relative;
-  margin-top: 2rem;
-  height: 40vh;
+  margin: var(--sub-spacer) 0;
+  height: 18rem;
   width: auto;
   overflow: hidden;
 }
@@ -159,12 +168,19 @@ article {
   position: absolute;
   top: 0;
   left: 0;
-  width: 100%;
-  height: auto;
+  width: auto;
+  height: 100%;
+}
+
+/* -----------------------------------------About */
+
+article {
+  text-align: center;
+  margin-bottom: var(--sub-spacer);
 }
 
 .location {
-  margin-top: 15vh;
+  margin-top: var(--main-spacer);
 }
 
 iframe {
@@ -173,14 +189,29 @@ iframe {
 
 article a h2:hover {
   text-decoration: none;
-  color: #dd2cb1;
+  color: var(--magenta);
 }
 
 .fa-globe {
-  color: #dd2cb1;
+  color: var(--dark-blue);
+}
+
+.services {
+  display: flex;
+  justify-content: center;
+  padding-top: var(--main-spacer);
+  margin-bottom: var(--sub-spacer);
 }
 
 /* -----------------------------------------Fleet */
+
+.aircraft {
+  display: flex;
+  justify-content: center;
+  padding-top: var(--main-spacer);
+  margin-bottom: var(--sub-spacer);
+}
+
 
 .aircraft h2,
 .experience h2,
@@ -188,12 +219,44 @@ article a h2:hover {
   font-size: 3rem;
 }
 
-.fleet-heading,
+.fleet-heading {
+  margin-bottom: var(--main-spacer);
+}
+
 .xp-heading {
-  margin-bottom: 10vh;
+  margin-bottom: var(--sub-spacer);
+}
+
+.experience {
+  margin: var(--main-spacer) 0;
+  display: flex;
+  justify-content: center;
+  text-align: center;
 }
 
 .form-container {
   display: flex;
   justify-content: center;
+  text-align: center;
+}
+
+/* -----------------------------------------Contact form */
+
+.form-container {
+  margin-top: var(--mini-spacer);
+  padding: var(--sub-spacer) 0;
+}
+
+.contact-form input {
+  display: block;
+}
+
+input,
+select,
+textarea {
+  width: 100%;
+  padding: 0.5rem;
+  margin: var(--mini-spacer);
+  border: 1px solid var(--dark-blue);
+  border-radius: 10px;
 }
