@@ -180,7 +180,9 @@ article {
 }
 
 .location {
-  margin-top: var(--main-spacer);
+  padding-top: var(--main-spacer);
+  padding-bottom: var(--sub-spacer);
+  margin-bottom: 0;
 }
 
 iframe {
