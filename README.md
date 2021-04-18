@@ -99,9 +99,9 @@ Below are the wireframes that I created using [Balsamiq](https://balsamiq.com/)
 Deployment for this project is via GitHub Pages.
 - From the repository home page, select the 'settings' tab
 - Scroll down the menu on the left and select 'pages'
-- ![pages screenshot](assets\img\pages-screenshot.png)
+- ![pages screenshot](assets/img/pages-screenshot.png)
 From the dropdown menu under 'source', select the branch that you wish to publish (usually master or main)
-- ![pages screenshot](assets\img\pages-screenshot2.png)
+- ![pages screenshot](assets/img/pages-screenshot2.png)
 Make sure that the root folder is selected and click save
 
 ## Credits
