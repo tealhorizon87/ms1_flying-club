@@ -158,6 +158,8 @@ footer p {
 
 .image-box {
   position: relative;
+  display: flex;
+  justify-content: center;
   margin: var(--sub-spacer) 0;
   height: 18rem;
   width: auto;
@@ -166,8 +168,6 @@ footer p {
 
 .image-box img {
   position: absolute;
-  top: 0;
-  left: 0;
   width: auto;
   height: 100%;
 }
