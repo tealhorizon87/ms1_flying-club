@@ -16,6 +16,7 @@ Flying club is a PPL (Private Pilot's Licence) flying club, with a selection of 
     - [Content](#content)
     - [Media](#media)
     - [Acknowledgements](#acknowledgements)
+    - [Disclaimer](#disclaimer)
 
 ## UX
 This is the main website for Flying Club, a general aviation flying club that organises air-shows and 'fly-in' events, allows pilots to rent aircraft, and offers experience flights to new users.
@@ -115,7 +116,7 @@ Lighthouse was used in Chrome developer tools to test the performance of the pag
    ![performance check mobile](assets/readme_img/lh-mobile.png)
    ![performance check desktop](assets/readme_img/lh-desktop.png)
 
-### User Stories
+### User Stories Evaluation
 To ensure that the project fulfils the goals set out in the user stories:
 
 Common user stories (pilots and first-timers)
@@ -180,3 +181,6 @@ As this is my first attempt at building a webpage from scratch, special thanks g
   - [Stack Overflow](https://stackoverflow.com/) - much like w3schools, an essential source of guidance...there is always someone who has had the same problem, and the answer is likely here.
   - [Code Institute](https://codeinstitute.net/) - from inspiration through all the walkthrough projects to the tools needed to complete.
   - My mentor for providing help, support and feedback.
+
+### Disclaimer
+This page has been designed as part of an educational program. This project is a proof of ability site only and as such any similarity to a real world flying club or any of the events listed within are purely coincidental.
