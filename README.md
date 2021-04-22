@@ -181,6 +181,3 @@ As this is my first attempt at building a webpage from scratch, special thanks g
   - [Stack Overflow](https://stackoverflow.com/) - much like w3schools, an essential source of guidance...there is always someone who has had the same problem, and the answer is likely here.
   - [Code Institute](https://codeinstitute.net/) - from inspiration through all the walkthrough projects to the tools needed to complete.
   - My mentor for providing help, support and feedback.
-
-### Disclaimer
-This page has been designed as part of an educational program. This project is a proof of ability site only and as such any similarity to a real world flying club or any of the events listed within are purely coincidental.
