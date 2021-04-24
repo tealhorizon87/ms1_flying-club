@@ -270,21 +270,24 @@ textarea {
 /* -----------------------------------------Events */
 
 .events {
-  display: flex;
-  justify-content: center;
   padding-top: var(--main-spacer);
   text-align: center;
 }
 
 /* -----------------------------------------Events table */
-
 .events-table {
   display: flex;
   justify-content: center;
 }
 
+.table-box {
+  overflow-x: auto;
+}
+
 table {
+  margin: auto;
   text-align: center;
+  width: 800px;
 }
 
 th {
