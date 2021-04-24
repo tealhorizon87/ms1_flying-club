@@ -77,6 +77,7 @@ Below are the wireframes that I created using [Balsamiq](https://balsamiq.com/)
       - This is the main mark-up language for the project.
   - [CSS3](https://en.wikipedia.org/wiki/CSS)
       - Used for personalised styling over and above the Bootstrap framework.
+
 ### Libraries and Frameworks:
   - [Bootstrap 4.6](https://getbootstrap.com/docs/4.6/getting-started/introduction/)
       - Used to provide the framework and facilitating responsiveness.
@@ -84,6 +85,7 @@ Below are the wireframes that I created using [Balsamiq](https://balsamiq.com/)
       - Used as the source for the font databases used in this site.
   - [Font Awesome 5.15.3](https://fontawesome.com/)
       - Used as the source for the icons used, including the social media links in the footer.
+
 ### Tools:
   - [Atom](https://atom.io/) with [GitHub Desktop](https://desktop.github.com/)
       - Atom is my preferred text editor, linked with GitHub Desktop in order to push the code to GitHub.
