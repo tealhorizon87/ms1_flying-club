@@ -46,10 +46,19 @@ h4 {
 
 .section-heading {
   margin-bottom: var(--sub-spacer);
+  padding: 0;
+}
+
+article {
+  margin-bottom: var(--sub-spacer);
 }
 
 h2 {
   font-size: 3rem;
+}
+
+.center-text {
+  text-align: center;
 }
 /* -----------------------------------------Header */
 
@@ -165,7 +174,7 @@ footer p {
   position: relative;
   display: flex;
   justify-content: center;
-  margin: var(--sub-spacer) 0;
+  padding-top: var(--mini-spacer);
   height: 18rem;
   width: auto;
   overflow: hidden;
@@ -173,8 +182,8 @@ footer p {
 
 .image-box img {
   position: absolute;
-  width: 100%;
-  height: auto;
+  width: auto;
+  height: 100%;
 }
 
 /* -----------------------------------------About */
@@ -187,10 +196,6 @@ footer p {
 
 .location {
   margin: var(--main-spacer) 0;
-}
-
-article {
-  text-align: center;
 }
 
 iframe {
@@ -226,7 +231,11 @@ article a h2:hover {
   margin: var(--main-spacer) 0;
   display: flex;
   justify-content: center;
-  text-align: center;
+}
+
+.experience-content {
+  display: flex;
+  justify-content: center;
 }
 
 .form-container {
