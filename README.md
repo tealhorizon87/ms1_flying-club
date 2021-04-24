@@ -110,11 +110,11 @@ My first step after publishing the page was to ask a few friends and family to g
 - Both the fleet and events pages were clean:
   ![fleet and events check](assets/readme_img/fleet_events-check.png)
 
-- The css stylesheet was cleared as well:
-  ![css check](assets/readme_img/css-check.png)
+- The CSS stylesheet was cleared as well (only when style.css was uploaded as text. There are 2 errors and many warnings associated with the bootstrap library, and several warnings relating to the project URL regarding the custom properties. The image for this form is available [here](assets/readme_img/css-check_url.png)):
+  ![CSS check](assets/readme_img/css-check.png)
 
 ### Performance
-Lighthouse was used in Chrome developer tools to test the performance of the page. This was done for both mobile (top) and desktop (bottom).
+Lighthouse was used in Chrome developer tools to test the performance of the page. This was done for both mobile (top) and desktop (bottom), and for all pages. Below is the report for the home page; all other pages have similar reports.
    ![performance check mobile](assets/readme_img/lh-mobile.png)
    ![performance check desktop](assets/readme_img/lh-desktop.png)
 
@@ -164,11 +164,6 @@ Bear in mind that it takes up to 10 minutes for the build process so the page ma
 
 ## Credits
 This project has been designed as part of an educational program hosted by Code Institute. This is a proof of ability page only, and as such, Flying Club and all of the events listed are not representative of any real group or event.
-
-### Content
-  - [Bootstrap](https://getbootstrap.com/docs/4.6/getting-started/introduction/) grid system was used to make the site responsive, and various pre-coded style classes were used for layout purposes.
-  - The navbar was taken from [Bootstrap](https://getbootstrap.com/docs/4.6/getting-started/introduction/) and then personally styled.
-  - The image carousel was also copied from [Bootstrap](https://getbootstrap.com/docs/4.6/getting-started/introduction/) documentation.
 
 ### Media
   - The hero image on the home page was taken from [picjumbo](https://picjumbo.com/cessna-airplane-propeller-closeup/)
