@@ -36,7 +36,7 @@ h4 {
   text-align: center;
 }
 
-/* -----------------------------------------Special Paddings */
+/* ---------------------------------Special Paddings and Sizes */
 
 :root {
   --main-spacer: 4rem; /* spacer between sections */
@@ -48,6 +48,9 @@ h4 {
   margin-bottom: var(--sub-spacer);
 }
 
+h2 {
+  font-size: 3rem;
+}
 /* -----------------------------------------Header */
 
 header {
@@ -219,12 +222,6 @@ article a h2:hover {
   margin-top: var(--main-spacer);
 }
 
-.aircraft h2,
-.experience h2,
-.form-container h2 {
-  font-size: 3rem;
-}
-
 .experience {
   margin: var(--main-spacer) 0;
   display: flex;
@@ -297,8 +294,21 @@ td {
 
 /* -----------------------------------------Events gallery */
 
-.events-gallery {
+.gallery {
   display: flex;
   justify-content: center;
   padding: var(--main-spacer) 0;
+}
+
+.gallery-videos {
+  margin: 0 var(--mini-spacer);
+  margin-bottom: var(--sub-spacer);
+}
+
+.video-box {
+  margin-top: var(--sub-spacer);
+}
+video {
+  display: flex;
+  justify-content: center;
 }
