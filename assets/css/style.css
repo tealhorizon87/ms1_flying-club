@@ -6,7 +6,7 @@
   --magenta: #dd2cb1;
 }
 
-.body-background {
+.lightblue-background {
   background-color: #c2eaff4d;
 }
 
@@ -17,7 +17,7 @@ a:hover {
 
 header a:hover,
 footer a:hover {
-  color:  var(--magenta);
+  color: var(--magenta);
 }
 
 /* -----------------------------------------Fonts */
@@ -26,7 +26,10 @@ body {
   color: var(--dark-blue);
 }
 
-h1, h2, h3, h4 {
+h1,
+h2,
+h3,
+h4 {
   font-family: "Oswald", sans-serif;
   color: var(--dark-blue);
   font-weight: bold;
@@ -36,9 +39,13 @@ h1, h2, h3, h4 {
 /* -----------------------------------------Special Paddings */
 
 :root {
-  --main-spacer: 4rem;
-  --sub-spacer: 2rem;
-  --mini-spacer: 1rem;
+  --main-spacer: 4rem; /* spacer between sections */
+  --sub-spacer: 2rem; /* spacer between headings and their content */
+  --mini-spacer: 1rem; /* spacer between different content */
+}
+
+.section-heading {
+  margin-bottom: var(--sub-spacer);
 }
 
 /* -----------------------------------------Header */
@@ -70,13 +77,8 @@ header a {
   font-size: 2rem;
 }
 
-.navbar-collapse {
-  display: flex;
-  justify-content:flex-end;
-}
-
 .navbar-toggler-icon {
-  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 0.5%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e")
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 0.5%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
 }
 
 /* -----------------------------------------Footer */
@@ -92,7 +94,7 @@ footer a {
 }
 
 footer p {
-  padding:0;
+  padding: 0;
 }
 
 .socials {
@@ -101,7 +103,7 @@ footer p {
 }
 
 .contacts {
-  padding-top: var(--mini-spacer);
+  padding: var(--mini-spacer) 0;
 }
 
 /* -----------------------------------------Hero */
@@ -168,21 +170,24 @@ footer p {
 
 .image-box img {
   position: absolute;
-  width: auto;
-  height: 100%;
+  width: 100%;
+  height: auto;
 }
 
 /* -----------------------------------------About */
 
-article {
-  text-align: center;
-  margin-bottom: var(--sub-spacer);
+.services {
+  display: flex;
+  justify-content: center;
+  margin-top: var(--main-spacer);
 }
 
 .location {
-  padding-top: var(--main-spacer);
-  padding-bottom: var(--sub-spacer);
-  margin-bottom: 0;
+  margin: var(--main-spacer) 0;
+}
+
+article {
+  text-align: center;
 }
 
 iframe {
@@ -198,13 +203,6 @@ article a h2:hover {
   color: var(--dark-blue);
 }
 
-.services {
-  display: flex;
-  justify-content: center;
-  padding-top: var(--main-spacer);
-  margin-bottom: var(--sub-spacer);
-}
-
 .contact-details a {
   color: var(--dark-blue);
 }
@@ -218,23 +216,13 @@ article a h2:hover {
 .aircraft {
   display: flex;
   justify-content: center;
-  padding-top: var(--main-spacer);
-  margin-bottom: var(--sub-spacer);
+  margin-top: var(--main-spacer);
 }
-
 
 .aircraft h2,
 .experience h2,
 .form-container h2 {
   font-size: 3rem;
-}
-
-.fleet-heading {
-  margin-bottom: var(--main-spacer);
-}
-
-.xp-heading {
-  margin-bottom: var(--sub-spacer);
 }
 
 .experience {
@@ -294,14 +282,13 @@ table {
 }
 
 th {
-  font-family: 'Oswald', sans-serif;
+  font-family: "Oswald", sans-serif;
   font-size: 1.5rem;
   border-bottom: 2px solid #003554;
 }
 
 tr {
   border-bottom: 1px solid #0035544d;
-
 }
 
 td {
@@ -314,8 +301,4 @@ td {
   display: flex;
   justify-content: center;
   padding: var(--main-spacer) 0;
-}
-
-.events-heading {
-  margin: var(--sub-spacer) 0;
 }
